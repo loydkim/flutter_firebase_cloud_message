@@ -35,8 +35,8 @@ class _MyHomePageState extends State<MyHomePage> {
   final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
   final TextEditingController _textController = TextEditingController();
 
-  String iOSDevice = 'fTWxoNCsmUnBq8u0Hg8N23:APA91bFVTksDSrIpKls-cpjOX9DgIA0o8PPOW3Q9hK85lW3dbwuwou1Oe2arF5AR9troLP9Rc58hmQmpIsnAdFIiKXVlrPR0Srk0aTMyN3oxMAMfMZRGlx0MK8v6ObkaqCMBo3fnHReh';
-  String androidSimul = 'cyZ82l8LemE:APA91bF613ps1ImMPpVCP3_1nhpciCFWUPRj2IVqokD1U-sNnrvqrmnStSAh4wh-8ciRyhYwz1ft6TqIPlrHufLL076lhgNs9fXSUtVwAz5NyLgcjFLCOtWIFy8lxO0g04-6lz1hqvpD';
+  String iOSDevice = 'Your iOS Token(Physical device)';
+  String androidSimul = 'Your Android Token';
 
   @override
   void initState() {
@@ -107,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  final String serverToken = 'AAAA0Qrw2uU:APA91bGBg4Y9rQ4Pyjsxn2xX8H0iYOMwni8UdcCPNjnlwkL4i7q3L8ZBKtDX6P7vqx3kFz6zurY0GQegY2MJ0n1abWitegqU9-3D9csh6eCPwp2iuoFrfWSSKK-AjqZiwiPVjs4k5eem';
+  final String serverToken = 'Your firebase console server string.';
 
   Future<Map<String, dynamic>> sendAndRetrieveMessage(String token) async {
     await http.post(
