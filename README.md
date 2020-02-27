@@ -2,6 +2,29 @@
 
 A new Flutter application.
 
+** Please click the Image **
+
+[![Youtube](https://img.youtube.com/vi/P8Y84OnVkdg/0.jpg)](https://youtu.be/P8Y84OnVkdg)
+
+* Reference links:
+
+1. Flutter Library site: https://pub.dev/flutter/packages
+
+2. Firebase Console:
+https://console.firebase.google.com/u/0/
+
+* Develop environment.
+
+- Flutter Version: 1.12.13+hotfix.8
+- Dart Version: 2.7.0
+- Xcode Version: 11.3.1
+- Android Studio: 3.5
+- OS Version: MacOS Catalina 10.15.3
+
+Thank you for watching :)
+
+#Flutter, #Firebase, #CloudMessaging
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
